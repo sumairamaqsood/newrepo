@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: rgb(191, 195, 199);
+  color: black;
+  padding: 2.5rem;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+  font-size: 1.9rem;
+}
+nav li {
+  float: left;
+
+  margin: 0 2.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.clear {
+  clear: both;
+}
